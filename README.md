@@ -10,50 +10,58 @@ How to use
 Api
 --------------------------------------------------------------
 1.เปิด Terminal และเข้าไปยังไฟล์ api โดยพิมพ์ cd api
-![image](https://github.com/KongPongsathon/WebsiteBlog/assets/167407098/0de52721-6797-4441-b9e6-80076d02fe75)
+![image](https://github.com/KongPongthon/WebsiteBlog/assets/98639367/f78b881f-e5d8-4d2e-9fe3-92eb45223a38)
+
 
 
 2.start Server side โดยพิมคำสั่ง npm start ถ้าสำเร็จจะขึ้น Running on port 4000
-![image](https://github.com/KongPongsathon/WebsiteBlog/assets/167407098/50e36e7a-1a5f-4d72-b1d6-28c5a9020f07)
-![image](https://github.com/KongPongsathon/WebsiteBlog/assets/167407098/a4cf74ff-d0a1-488a-8c82-82539c464f54)
+![image](https://github.com/KongPongthon/WebsiteBlog/assets/98639367/aeaea5ba-2057-43ed-b6f5-f2c6f7d6ab55)
+![image](https://github.com/KongPongthon/WebsiteBlog/assets/98639367/dcafac71-495c-4284-9950-14f5a78f96e2)
+
 
 
 MongoDB
 --------------------------------------------------------------
 1.ติดตั้ง MongoDB Compass ตามลิงค์นี้ https://www.mongodb.com/try/download/community กด Select package และกด Download จากนั้นติดตั้ง
-![image](https://github.com/KongPongsathon/WebsiteBlog/assets/167407098/b9ddfd81-05b8-40fb-a9d9-809ee2818211)
-![image](https://github.com/KongPongsathon/WebsiteBlog/assets/167407098/7a6c1eb5-6eb1-4df4-81d2-c6a5909b1d53)
+![image](https://github.com/KongPongthon/WebsiteBlog/assets/98639367/3d9b8167-4190-4f62-8321-4f26c8a80540)
+![image](https://github.com/KongPongthon/WebsiteBlog/assets/98639367/149e3a44-9122-484a-a76b-34cb53c5c14f)
+
 
 
 2.เมื่อติดตั้งเสร็จแล้ว กด connect จะได้หน้าต่างดังภาพต่อไปนี้ เป็นอันเสร็จเรียบร้อย
-![image](https://github.com/KongPongsathon/WebsiteBlog/assets/167407098/db3efa9d-9271-40a3-bd3a-9fcbe11676f0)
-![image](https://github.com/KongPongsathon/WebsiteBlog/assets/167407098/7019c918-7cc4-4c86-a108-4475c3526808)
+![image](https://github.com/KongPongthon/WebsiteBlog/assets/98639367/9e27a319-8144-4065-bb78-3c29d762caf7)
+![image](https://github.com/KongPongthon/WebsiteBlog/assets/98639367/814a4a1c-c9fd-4517-ba93-76cbeea2a892)
+
 
 
 URL connect api and MongoDB
 --------------------------------------------------------------
 1.ไฟล์ api เข้าไปยัง .env จะพบ Url_Mongodb ต้องตรงกับ URL ของ MongoDB [blog คือ เมื่อมีการเพิ่มข้อมูลจะสร้าง database ที่มีชื่อว่า blog]
-![image](https://github.com/KongPongsathon/WebsiteBlog/assets/167407098/a4f6cf9d-ce75-4452-8d81-6b7d9b76a576)
-![image](https://github.com/KongPongsathon/WebsiteBlog/assets/167407098/b6d0dbc5-f6fb-48d5-8f57-93c5fa3b7b2a)
+![image](https://github.com/KongPongthon/WebsiteBlog/assets/98639367/427959c9-5561-414f-bb0f-4f2f291f383a)
+![image](https://github.com/KongPongthon/WebsiteBlog/assets/98639367/a2a163ab-a97a-4fca-955a-b232cd5d6af4)
+
 
 Client
 --------------------------------------------------------------
 1.เปิด Terminal และเข้าไปยัง client โดยพิมพ์ cd client
-![image](https://github.com/KongPongsathon/WebsiteBlog/assets/167407098/b568f098-89d6-4cb4-832b-2cedf605b16a)
+![image](https://github.com/KongPongthon/WebsiteBlog/assets/98639367/a995b8c0-ad0b-4c17-bd33-d28ffeaecdcf)
+
 
 2.run ReactJs โดยการพิมพ์คำสั่ง npm run dev และเปิดหน้าเว็ปในลิงค์ Local โดยกด Ctrl+Click
-![image](https://github.com/KongPongsathon/WebsiteBlog/assets/167407098/bcc412c9-9881-4859-b268-9f1e1951f67c)
+![image](https://github.com/KongPongthon/WebsiteBlog/assets/98639367/77a61450-67c1-48e9-87f2-d7767949709e)
+
 
 
 Api(npm start) และ Client(npm run dev) ต้อง run พร้อมกัน พร้อมทั้ง connect MongoDB
-![image](https://github.com/KongPongsathon/WebsiteBlog/assets/167407098/51e5274b-0330-4816-afd5-23ba978f9fea)
-![Captures](https://github.com/KongPongsathon/WebsiteBlog/assets/167407098/364c8b65-9b85-4af4-9f5d-73e049499ca1)
+![image](https://github.com/KongPongthon/WebsiteBlog/assets/98639367/91d1cbfa-8f08-4342-b0e7-0e8623ae3d0d)
+![image](https://github.com/KongPongthon/WebsiteBlog/assets/98639367/3073ccd4-7bd6-49cd-88c9-9eeb99e49b41)
+
 
 การใช้งาน Blog Website
 --------------------------------------------------------------
-1.การเลิอกดูบล็อก
+1.การเลือกดูบล็อก
 --------------------------------------------------------------
-![Capturessss](https://github.com/KongPongsathon/WebsiteBlog/assets/167407098/0147968e-c1f1-4275-b76e-852ba72cc08d)
+![image](https://github.com/KongPongthon/WebsiteBlog/assets/98639367/1d79d2b3-3f88-4fe8-9aa8-c0f4925db180)
 ได้จากเส้นสีแดง
 
 
@@ -61,13 +69,16 @@ Api(npm start) และ Client(npm run dev) ต้อง run พร้อมก
 --------------------------------------------------------------
   2.1 เริ่มจากทำการสมัครสมาชิกให้สำเร็จโดยการ
   --------------------------------------------------------------
-  ![Capturess](https://github.com/KongPongsathon/WebsiteBlog/assets/167407098/d5a2a3f7-6426-45d5-abe3-2e0eb723d6cf)
-  ![image](https://github.com/KongPongsathon/WebsiteBlog/assets/167407098/01f39f2b-8464-4bc7-b5e4-2d6169d87c8a)
+  ![image](https://github.com/KongPongthon/WebsiteBlog/assets/98639367/1a3da48b-52a0-4bea-97e5-4bc79e3a8b75)
+  ![image](https://github.com/KongPongthon/WebsiteBlog/assets/98639367/2414e437-5fea-4fd0-8320-7ca76a8120ef)
+
 
 
   2.2 เพิ่มข้อมูล
   --------------------------------------------------------------
   เลือกบล็อกที่จะสร้าง แล้วเพิ่มข้อมูล
-  ![image](https://github.com/KongPongsathon/WebsiteBlog/assets/167407098/05220311-234f-4083-8d40-69ca69484a86)
-  ![image](https://github.com/KongPongsathon/WebsiteBlog/assets/167407098/3094f75f-b437-4c89-92ed-f28877dec883)
+  ![image](https://github.com/KongPongthon/WebsiteBlog/assets/98639367/4d7284fe-1c4b-47d6-bcfb-b359c7273ed0)
+  ![image](https://github.com/KongPongthon/WebsiteBlog/assets/98639367/a53481b8-b275-4980-84ac-ebbb36c74d30)
+
+
 
